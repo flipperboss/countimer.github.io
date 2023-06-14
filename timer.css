@@ -103,7 +103,7 @@ body{
    font-size: 24px;
    margin-top: 20px;
  } */
-.blur{
+/*.blur{
     width:80%;
     height:70%;
     background-color:#d4bdbd;
@@ -116,7 +116,7 @@ body{
     border-radius:20px;
  
 
-}
+}*/
 
 #current-time{
    color:#ff7403;
@@ -138,7 +138,7 @@ img{
 
 }
 #timer{
-   font-size: 40px;
+   font-size: 60px;
    color:#d4bdbd;
    z-index: 100;
    position:absolute;
