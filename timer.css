@@ -107,7 +107,7 @@ body{
 #current-time{
    color:#ff7403;
    position:absolute;
-   top: 70%;
+   top: 75%;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 100;
@@ -116,7 +116,7 @@ body{
    letter-spacing: 6;
 }
 img{
-   width: 200px;
+   width: 100px;
    position:absolute;
    top: 10%;
    left: 50%;
