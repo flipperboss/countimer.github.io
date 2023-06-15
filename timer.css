@@ -107,16 +107,16 @@ body{
 #current-time{
    color:#ff7403;
    position:absolute;
-   top: 75%;
+   top: 90%;
    left: 50%;
    transform: translate(-50%, -50%);
    z-index: 100;
-   font-size:10rem; 
+   font-size:12rem; 
    font-family: 'Righteous', cursive;
    letter-spacing: 6;
 }
 img{
-   width: 100px;
+   width: 50px;
    position:absolute;
    top: 10%;
    left: 50%;
@@ -128,11 +128,12 @@ img{
    color:#d4bdbd;
    z-index: 100;
    position:absolute;
-   top: 47%;
+   top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
    font-size:30em;
    padding-bottom:90px;
+       letter-spacing: 9;
 }
 
 @media(max-width:2000px){
