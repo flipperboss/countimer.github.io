@@ -1,18 +1,15 @@
 *{
     margin-top: 0;
     padding:0;
+    overflow: hidden;
 box-sizing:border-box;
     color:antiquewhite;
     font-family: 'Bebas Neue', cursive;
 }
 body{
-    width: 100%;
-    height: 100vh;
-    background-color:#060B2C;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+
+    background-color:#010418;
+
 }
 /* nav{
    width: 100%;
@@ -91,6 +88,7 @@ body{
    font-weight: 700;
    font-family:Arial, Helvetica, sans-serif;
    outline:none;
+   border:none;
    border-radius: 50px;
  }
  button:active{
@@ -105,34 +103,36 @@ body{
  } */
 
 #current-time{
-   color:#ff7403;
+   color:#ff831e;
    position:absolute;
-   top: 90%;
-   left: 50%;
+   top: 80%;
+   left: 45%;
    transform: translate(-50%, -50%);
    z-index: 100;
-   font-size:12rem; 
-   font-family: 'Righteous', cursive;
-   letter-spacing: 6;
+   font-size:20em; 
+   font-family: 'Bebas Neue', cursive;
+ margin: none;
+   padding: none;
+
 }
-img{
+/* img{
    width: 50px;
    position:absolute;
    top: 10%;
-   left: 50%;
+   left: 50%
    transform: translate(-50%, -50%);
 
-}
+} */
 #timer{
    font-size: 60px;
    color:#d4bdbd;
    z-index: 100;
    position:absolute;
-   top: 50%;
+   top: 40%;
    left: 50%;
    transform: translate(-50%, -50%);
-   font-size:30em;
-   padding-bottom:90px;
+   font-size:40em;
+   /* padding-bottom:90px; */
        letter-spacing: 9;
 }
 
@@ -270,6 +270,5 @@ img{
       font-size: 1.5rem;
    }
 }
-
 
 
