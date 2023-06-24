@@ -84,12 +84,15 @@ body{
  
  button {
    width:70px; height: 30px;
-   background: #170f33;
+   background: #0bb1ce;
    font-weight: 700;
    font-family:Arial, Helvetica, sans-serif;
    outline:none;
    border:none;
    border-radius: 50px;
+ }
+ button :hover{
+   background-color: #20b146;
  }
  button:active{
    background: #145a26;
@@ -103,13 +106,13 @@ body{
  } */
 
 #current-time{
-   color:#ff831e;
+   color:#ffffff;
    position:absolute;
    top: 80%;
    left: 45%;
    transform: translate(-50%, -50%);
    z-index: 100;
-   font-size:20em; 
+   font-size:18em; 
    font-family: 'Bebas Neue', cursive;
  margin: none;
    padding: none;
@@ -125,7 +128,7 @@ body{
 } */
 #timer{
    font-size: 60px;
-   color:#d4bdbd;
+   color:#dfab00;
    z-index: 100;
    position:absolute;
    top: 40%;
